@@ -90,6 +90,11 @@ body {
     display: flex;
     gap: 40px;
     font-size: 20px;
+
+}
+
+.mobail__menu {
+    display: none;
 }
 
 .phone {
@@ -98,6 +103,7 @@ body {
 }
 
 .header__inner {
+    position: relative;
     display: flex;
     justify-content: space-between;
 }
@@ -303,7 +309,8 @@ body {
     min-width: 500px;
     min-height: 64px;
     margin-bottom: 10px;
-    background-color: #f6f6f6;;
+    background-color: #f6f6f6;
+    ;
     border-radius: 5px;
     padding: 0 20px;
 
@@ -333,21 +340,7 @@ body {
     color: rgba(255, 255, 255, 0.7);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* -----modal----- */
 
 .modal {
     display: none;
